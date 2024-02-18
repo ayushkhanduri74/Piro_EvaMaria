@@ -105,10 +105,9 @@ async def answer(bot, query):
 
 
 def get_reply_markup(query):
-    buttons =
-        [[
+    buttons =[
             InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/master793")
-        ]]
+        ]
     return InlineKeyboardMarkup(buttons)
 
 
